@@ -1,0 +1,33 @@
+Plan:
+Clean App Store Data
+•	Delete Column currency, since there is only US currency in the column Currency
+•	Delete Column application size, latest version code,  number of supporting devices, number of screenshots showed for display, number of supported languages, Vpp device based licensing enabled, we are not interested in if those features will affect number of installs and rating
+•	Set price range
+o	Free
+o	0.1-10
+o	10-30
+o	30-50
+o	50-100
+o	100+
+•	Set rating range to 0, 0.1-3, 3-3.5, 3.5-4, 4-4.5, 4.5+
+•	Set reviews range 
+
+Clean Google Play Data:
+
+o	
+•	Modify Content Rating
+o	Change content rating to 4+, 9+, 12+, 17+
+•	Delete row with application category “1.9”
+
+o	How to deal with NaN rating in GooglePlay
+o	How many category for rating 
+	0-3
+	3-3.5
+	3.5-4
+	4.5-5
+o	
+o	Design reviews rank
+o	Use the first genre as primary genre
+o	Delate application size 
+o	Delete number of language support column in App Store since we don’t have this 
+
