@@ -1,3 +1,10 @@
+Since I want to compare two dataset, I want to make sure there are same columns in those two dataset.At the end I want to have following columns in those two datset.
+1. Category
+2. Price
+3. Number of Reviews
+4. Rating
+5. Age Limit
+
 Plan:
 Clean App Store Data
 •	Delete Column currency, since there is only US currency in the column Currency
